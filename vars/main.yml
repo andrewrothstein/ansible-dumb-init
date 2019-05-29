@@ -1,4 +1,4 @@
 ---
-dumb_init_download_url: '{{dumb_init_url}}/v{{dumb_init_version}}/dumb-init_{{dumb_init_version}}_{{dumb_init_architecture}}'
-dumb_init_install_dir: '{{dumb_init_install_parent_dir}}/dumb-init-{{dumb_init_version}}'
-dumb_init_checksum: '{{dumb_init_checksums[dumb_init_version][dumb_init_architecture]}}'
+dumb_init_download_url: '{{ dumb_init_url }}/v{{ dumb_init_version }}/dumb-init_{{ dumb_init_version }}_{{ dumb_init_architecture }}'
+dumb_init_install_dir: '{{ dumb_init_install_parent_dir }}/dumb-init-{{ dumb_init_version }}'
+dumb_init_checksum: '{{ dumb_init_checksums[dumb_init_version][dumb_init_architecture] }}'

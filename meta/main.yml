@@ -18,6 +18,8 @@ galaxy_info:
         - 26
         - 27
         - 28
+        - 29
+        - 30
     - name: Ubuntu
       versions:
         - trusty
@@ -33,5 +35,5 @@ galaxy_info:
 
   galaxy_tags:
     - development
-  
+
 dependencies: []
