@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: Vishal Shah
-  description: installs dumb-init in container environments
+  author: Vishal Shah & Andrew Rothstein
+  description: installs dumb-init
   company: BlackRock
   license:
     - MIT
@@ -22,7 +22,6 @@ galaxy_info:
         - 30
     - name: Ubuntu
       versions:
-        - trusty
         - xenial
         - bionic
     - name: Debian
