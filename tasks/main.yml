@@ -1,5 +1,5 @@
 ---
-- name: download...
+- name: downloading {{ dumb_init_url }} to {{ dumb_init_exe }}
   become: yes
   become_user: root
   get_url:
@@ -8,7 +8,7 @@
     checksum: '{{ dumb_init_checksum }}'
     mode: 0755
 
-- name: link...
+- name: linking {{ dumb_init_link }} to {{ dumb_init_exe }}
   become: yes
   become_user: root
   file:
