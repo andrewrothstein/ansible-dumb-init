@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 DIR=~/Downloads
 MIRROR=https://github.com/Yelp/dumb-init/releases/download
 
@@ -26,9 +27,9 @@ dl_ver ()
     printf "  # %s\n" $checksums_url
     printf "  '%s':\n" $ver
 
-    dl $ver $lchecksums amd64
-    dl $ver $lchecksums ppc64el
+    dl $ver $lchecksums x86_64
+    dl $ver $lchecksums ppc64le
     dl $ver $lchecksums s390x
 }
 
-dl_ver ${1:-1.2.2}
+dl_ver ${1:-1.2.5}

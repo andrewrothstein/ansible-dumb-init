@@ -1,29 +1,23 @@
 ---
-dumb_init_version: '1.2.2'
+dumb_init_version: 1.2.5
 dumb_init_mirror: https://github.com/yelp/dumb-init/releases/download
 dumb_init_install_dir: /usr/local/bin
-dumb_init_arch: amd64
+dumb_init_arch: x86_64
 
 dumb_init_checksums:
-  # https://github.com/Yelp/dumb-init/releases/download/v1.2.0/sha256sums
-  '1.2.0':
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_amd64
-    amd64: sha256:81231da1cd074fdc81af62789fead8641ef3f24b6b07366a1c34e5b059faf363
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_s390x
-    s390x: sha256:e067ada24781c10fa425fcaab0e4ed96a68efff990a7a978f9f33fe92c948649
-  # https://github.com/Yelp/dumb-init/releases/download/v1.2.1/sha256sums
-  '1.2.1':
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_amd64
-    amd64: sha256:057ecd4ac1d3c3be31f82fc0848bf77b1326a975b4f8423fe31607205a0fe945
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_ppc64el
-    ppc64el: sha256:bb665053548b2c328b3cff4ae5f6844b51b54af9de19f8a7dbf6d982eb565a47
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_s390x
-    s390x: sha256:ba30a8f820488c907ef0d597433428131ea207cecdfa19dd675dfb5c714f21f7
-  # https://github.com/Yelp/dumb-init/releases/download/v1.2.2/sha256sums
-  '1.2.2':
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_amd64
-    amd64: sha256:37f2c1f0372a45554f1b89924fbb134fc24c3756efaedf11e07f599494e0eff9
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_ppc64el
-    ppc64el: sha256:88b02a3bd014e4c30d8d54389597adc4f5a36d1d6b49200b5a4f6a71026c2246
-    # https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_s390x
-    s390x: sha256:8b3808c3c06d008b8f2eeb2789c7c99e0450b678d94fb50fd446b8f6a22e3a9d
+  # https://github.com/Yelp/dumb-init/releases/download/v1.2.4/sha256sums
+  '1.2.4':
+    # https://github.com/Yelp/dumb-init/releases/download/v1.2.4/dumb-init_1.2.4_x86_64
+    x86_64: sha256:cd7ab5513d20f4b985012d264fbdee60ccd2ea528b94b4b9308c6c6d26f8ba90
+    # https://github.com/Yelp/dumb-init/releases/download/v1.2.4/dumb-init_1.2.4_ppc64le
+    ppc64le: sha256:8671202c9d675a74315dd542f4eae8b99168ab7e21ae9217fe2d540c181be609
+    # https://github.com/Yelp/dumb-init/releases/download/v1.2.4/dumb-init_1.2.4_s390x
+    s390x: sha256:293b7e8df2c23441e4e59983ee362e380c221ee10ff950def05851e0fc2215c3
+  # https://github.com/Yelp/dumb-init/releases/download/v1.2.5/sha256sums
+  '1.2.5':
+    # https://github.com/Yelp/dumb-init/releases/download/v1.2.5/dumb-init_1.2.5_x86_64
+    x86_64: sha256:e874b55f3279ca41415d290c512a7ba9d08f98041b28ae7c2acb19a545f1c4df
+    # https://github.com/Yelp/dumb-init/releases/download/v1.2.5/dumb-init_1.2.5_ppc64le
+    ppc64le: sha256:3d15e80e29f0f4fa1fc686b00613a2220bc37e83a35283d4b4cca1fbd0a5609f
+    # https://github.com/Yelp/dumb-init/releases/download/v1.2.5/dumb-init_1.2.5_s390x
+    s390x: sha256:47e4601b152fc6dcb1891e66c30ecc62a2939fd7ffd1515a7c30f281cfec53b7
